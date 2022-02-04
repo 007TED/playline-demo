@@ -1,0 +1,10 @@
+/**{*/
+/*    background: #022145;*/
+/*}*/
+.App{
+    background: #022145;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}

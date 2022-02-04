@@ -1,0 +1,178 @@
+
+.card-container{
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width : 500px;
+    align-content: center;
+}
+.progress-bar{
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    border-color: dimgrey;
+    border-radius: 20px;
+}
+.progress-bar-one{
+    width: 20%;
+    height: 10px;
+    background: darkgreen;
+}
+.progress-bar-two{
+    width: 20%;
+    height: 10px;
+    background: darkgreen;
+}
+.progress-bar-three{
+    width: 20%;
+    height: 10px;
+    background: darkgreen;
+}
+.progress-bar-four{
+    width: 20%;
+    height: 10px;
+    background: darkgreen;
+}
+
+/*.avtar-container{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    background: white;*/
+/*}*/
+.card-container hr{
+    width: 50%;
+}
+.card-container-message p{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.card-container-message-status{
+    color: black;
+}
+.card-container-message-tracking{
+    color: dimgrey;
+}
+.selected_Players-lastName{
+    text-align: center;
+}
+
+.avatar-container-item{
+    width: 50px;
+    height: 50px;
+    background: lightgray;
+    justify-content: center;
+}
+.selected_players{
+
+    /*background: #;*/
+    min-width: 54px;
+}
+.selected_players_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /*background: #fdfdfd;*/
+}
+
+/*.selected_players-avatar-group{}*/
+/*.MuiAvatar-root {*/
+/*    margin-left: 0px;*/
+/*}*/
+/*.MuiAvatar-circular {*/
+/*    margin-left: 0px;*/
+/*}*/
+/*.avatar-container-item {*/
+/*    margin-left: 0px;*/
+/*}*/
+.css-1wlk0hk-MuiAvatar-root{
+    /*font-family:;*/
+    margin-left: 0px!important;
+}
+
+.available_players{
+    display: flex;
+    Justify-content: space-between;
+}
+.dot {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 4px solid #e7e7e7;
+    /*background-color: white;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    /* line-height: 1.42857143; */
+
+    width: 35px;
+    height: 35px;
+
+}
+
+.value{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.428571;
+}
+.selected_players-point-para{
+    text-align: center;
+}
+
+.css-1ytufz-MuiAvatarGroup-root .MuiAvatar-root{
+    border: 4px solid #f8f8f8!important;
+}
+.playline_cta{
+    display: flex;
+    justify-content: center;
+}
+.playline_cta button{
+    border-radius: 20px;
+}
+
+.app_link-container_links {
+    display: flex;
+    justify-content: center;
+}
+.app_link-container_links img{
+    height: 40px;
+    width: 100px;
+
+}
+.app_link-container {
+    display: flex;
+    justify-content: center;
+    color: dimgrey;
+}
+@media (max-width: 770px) {
+    .card-container {
+        height: auto;
+        width: auto;
+    }
+}
+@media (max-width: 650px) {
+    .card-container {
+        height: auto;
+        width: auto;
+        min-width: 220px;
+    }
+}
+@media (max-width: 350px) {
+    .card-container {
+        height: auto;
+        width: auto;
+    }
+}
+@media (min-height: 800px) {
+    .card-container {
+        min-height: 500px;
+        width: 350px;
+
+    }
+}
